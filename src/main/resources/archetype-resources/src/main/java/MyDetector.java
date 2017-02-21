@@ -1,4 +1,6 @@
-package ${groupId}.${artifactId};
+package ${groupId};
+
+import org.apache.bcel.Const;
 
 import edu.umd.cs.findbugs.BugInstance;
 import edu.umd.cs.findbugs.BugReporter;
@@ -13,7 +15,7 @@ public class MyDetector extends OpcodeStackDetector {
 
     @Override
     public void sawOpcode(int seen) {
-        if (seen != GETSTATIC) {
+        if (seen != Const.GETSTATIC) {
             return;
         }
         if (getClassConstantOperand().equals("java/lang/System")

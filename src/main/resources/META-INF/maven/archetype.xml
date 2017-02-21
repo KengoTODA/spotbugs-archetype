@@ -4,6 +4,11 @@
   <sources>
     <source>src/main/java/MyDetector.java</source>
   </sources>
+  <testSources>
+    <source>src/test/java/BadCase.java</source>
+    <source>src/test/java/GoodCase.java</source>
+    <source>src/test/java/MyDetectorTest.java</source>
+  </testSources>
   <resources>
     <resource>README.md</resource>
     <resource>src/main/resources/findbugs.xml</resource>
