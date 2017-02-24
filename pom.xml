@@ -9,16 +9,17 @@
 
   <groupId>com.github.spotbugs</groupId>
   <artifactId>archetype</artifactId>
+  <name>SpotBugs Maven Archetype</name>
   <version>0.1.0-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
 
-  <url>https://github.com/KengoTODA/spotbugs-archetype</url>
+  <url>https://github.com/spotbugs/spotbugs-archetype</url>
   <description>A Maven archetype for SpotBugs plugin project</description>
 
   <scm>
-    <connection>scm:git:git@github.com:KengoTODA/spotbugs-archetype.git</connection>
-    <developerConnection>scm:git:git@github.com:KengoTODA/spotbugs-archetype.git</developerConnection>
-    <url>git@github.com:KengoTODA/spotbugs-archetype.git</url>
+    <connection>scm:git:git@github.com:spotbugs/spotbugs-archetype.git</connection>
+    <developerConnection>scm:git:git@github.com:spotbugs/spotbugs-archetype.git</developerConnection>
+    <url>git@github.com:spotbugs/spotbugs-archetype.git</url>
   </scm>
   <developers>
     <developer>
