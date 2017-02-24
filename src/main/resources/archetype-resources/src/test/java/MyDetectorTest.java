@@ -1,4 +1,4 @@
-package ${groupId};
+package ${package};
 
 import static edu.umd.cs.findbugs.test.SpotBugsRule.containsExactly;
 import static org.junit.Assert.assertThat;

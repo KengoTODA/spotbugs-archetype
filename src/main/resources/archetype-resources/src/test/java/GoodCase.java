@@ -1,4 +1,4 @@
-package ${groupId};
+package ${package};
 
 class GoodCase {
     void method() {
